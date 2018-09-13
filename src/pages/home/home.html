@@ -4,14 +4,37 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+<ion-content padding="true" class="has-header">
+  <ion-list id="danSHome-list1" inset>
+    <ion-list-header>All Spaces</ion-list-header>
+   
+     
+      <button ion-item (click)="gotoSpaceDevices(space.name)" *ngFor="let space of spaces"> 
+        <ion-icon name="{{space.icon}}" item-start></ion-icon>
+        <div style="float: left;">{{space.name}}</div>
+        <div style="float: right;">{{space.devicesCount}} {{space.devicesCount>1?"devices":"device"}}</div>
+      </button>
+
+    
+
+    <ion-item class="item-icon-left" id="danSHome-list-item3">
+      <i class="icon ion-ios-home-outline"></i>Home &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 21 devices</ion-item>
+    <ion-item class="item-icon-left" id="danSHome-list-item13">
+      <i class="icon ion-ios-monitor-outline"></i>Living &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5 devices</ion-item>
+    <ion-item class="item-icon-left" id="danSHome-list-item5">
+      <i class="icon ion-spoon"></i>Kitcken&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3 devices</ion-item>
+    <ion-item class="item-icon-left" id="danSHome-list-item4">
+      <i class="icon ion-ios-printer-outline"></i>Office &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4 devices</ion-item>
+    <ion-item class="item-icon-left" id="danSHome-list-item11">
+      <i class="icon ion-waterdrop"></i>Bathroom&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3 devices</ion-item>
+    <ion-item class="item-icon-left" id="danSHome-list-item12">
+      <i class="icon ion-waterdrop"></i>Bathroom Small &nbsp;&nbsp;2 devices</ion-item>
+    <ion-item class="item-icon-left" id="danSHome-list-item7">
+      <i class="icon ion-leaf"></i>Garden Front&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 devices</ion-item>
+    <ion-item class="item-icon-left" id="danSHome-list-item8">
+      <i class="icon ion-leaf"></i>Garden Back&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 devices</ion-item>
+    <ion-item class="item-icon-left" id="danSHome-list-item6">
+      <i class="icon ion-android-car"></i>Garage&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 device</ion-item>
+  </ion-list>
+
 </ion-content>

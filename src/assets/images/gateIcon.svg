@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   style="overflow:visible"
+   height="44.124901"
+   width="78.229103"
+   id="svg13"
+   version="1.1"
+   overflow="visible">
+  <metadata
+     id="metadata19">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs17" />
+  <svg
+     id="svg11"
+     version="1.1"
+     clip-path="url(#clippath_idm139757081254432)"
+     height="44.124901"
+     width="78.229103">
+    <defs
+       id="defs5">
+      <clipPath
+         id="clippath_idm139757081254432">
+        <path
+           id="path2"
+           d="M 0,0 H 78.2291 V 44.1249 H 0 V 0" />
+      </clipPath>
+    </defs>
+    <svg
+       id="svg9"
+       version="1.1"
+       y="0"
+       x="0"
+       height="599.69702"
+       width="800.34399">
+      <path
+         style="fill:#ffffff;stroke:#ffffff;stroke-width:1"
+         id="path7"
+         stroke-linejoin="Round"
+         d="m 72.8541,1.90735e-5 h 5.375 V 44.1249 h -5.375 V 43.5995 H 0 V 42.5044 H 8.41547 C 7.2728,42.0449 6.46432,40.9297 6.45581,39.6247 L 0.1427,39.5413 V 2.04183 L 18.4974,2.12514 V 39.6247 h -5.7917 c -0.0085,1.305 -0.817,2.4202 -1.9597,2.8797 H 72.8541 Z M 9.58051,38.1458 c -0.80546,0 -1.45838,0.6529 -1.45838,1.4583 0,0.8056 0.65292,1.4584 1.45838,1.4584 0.80549,0 1.45839,-0.6528 1.45839,-1.4584 0,-0.8054 -0.6529,-1.4583 -1.45839,-1.4583 z M 1.55981,3.32277 V 11.664 L 3.64316,11.6589 V 3.32277 Z m 0,34.58333 h 2.08335 v -7.646 H 1.55981 Z M 3.64316,12.8673 1.55981,12.8724 V 29.0517 H 3.64316 Z M 8.26813,3.28109 V 11.6474 L 10.3515,11.6423 V 3.28109 Z m 0,33.21871 H 10.3515 V 30.2601 H 8.26813 Z M 10.3515,12.8507 8.26813,12.8558 V 29.0517 H 10.3515 Z M 14.914,3.30184 V 11.631 l 2.0834,-0.0051 V 3.30184 Z m 0,34.58336 h 2.0834 V 30.2601 H 14.914 Z m 2.0834,-25.051 -2.0834,0.0052 v 16.2123 h 2.0834 z" />
+    </svg>
+  </svg>
+</svg>
