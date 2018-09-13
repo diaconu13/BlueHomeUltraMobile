@@ -7,7 +7,7 @@ import { Config } from "./bhconfig";
 /**
  * this is the file where each type of device has a predevined structure that the business logic will use
  */
-export class DevicesConfigBase {
+export class DevicesConfigBase { 
   signals: Signal[];
   uiType : UiDeviceTypeEnum;
   config : Config;
